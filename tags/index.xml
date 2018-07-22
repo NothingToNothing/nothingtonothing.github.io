@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 胡亚敏的博客</title>
+    <link>https://nothingtonothing.github.io/tags/</link>
+    <description>Recent content in Tags on 胡亚敏的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>huym@mail.ustc.edu.cn (Yamin Hu)</managingEditor>
+    <webMaster>huym@mail.ustc.edu.cn (Yamin Hu)</webMaster>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nothingtonothing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://nothingtonothing.github.io/tags/blog/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
+      <guid>https://nothingtonothing.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hubo</title>
+      <link>https://nothingtonothing.github.io/tags/hubo/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
+      <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
+      <guid>https://nothingtonothing.github.io/tags/hubo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
