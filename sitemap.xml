@@ -3,53 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nothingtonothing.github.io/about/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/about/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/post/%E5%AE%89%E8%A3%85hugo/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/tags/blog/</loc>
-    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nothingtonothing.github.io/topics/blog/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/tags/blog/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/tags/hubo/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/topics/blog/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/post/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/tags/hubo/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/tags/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/post/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/topics/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/tags/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/</loc>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/topics/</loc>
+    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/NothingToNothing/nothingtonothing.github.io.git/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
