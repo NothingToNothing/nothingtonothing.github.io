@@ -15,10 +15,10 @@
     
     <item>
       <title>尝试Hugo</title>
-      <link>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</link>
+      <link>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
-      <guid>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</guid>
+      <guid>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</guid>
       <description>安装brew ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  安装Hugo brew install hugo  创建站点 hugo new site MyBlog  增加theme fork theme:hyde-y (从github到码云）
 给站点增加theme
 cd MyBLog git init git submodule add https://gitee.com/yaminhu/hyde-y.git themes/hyde-y  增加内容 根据hyde-y的一个live site的source code，修改content和data目录下的文件和config.toml。
@@ -26,11 +26,11 @@ cd MyBLog git init git submodule add https://gitee.com/yaminhu/hyde-y.git themes
     </item>
     
     <item>
-      <title>尝试Hugo</title>
-      <link>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</link>
+      <title>尝试Hugos</title>
+      <link>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
-      <guid>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</guid>
+      <guid>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</guid>
       <description>安装brew ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  安装Hugo brew install hugo  创建站点 hugo new site MyBlog  增加theme fork theme:hyde-y (从github到码云）
 给站点增加theme
 cd MyBLog git init git submodule add https://gitee.com/yaminhu/hyde-y.git themes/hyde-y  增加内容 根据hyde-y的一个live site的source code，修改content和data目录下的文件和config.toml。

@@ -8,23 +8,23 @@
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</loc>
-    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/topics/blog/</loc>
+    <loc>https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo-copy/</loc>
+    <lastmod>2018-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nothingtonothing.github.io/tags/blog/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nothingtonothing.github.io/tags/blog/</loc>
+    <loc>https://nothingtonothing.github.io/topics/blog/</loc>
     <lastmod>2018-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
