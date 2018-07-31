@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>第二章 普通模式 笔记  &middot; 胡亚敏的博客</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="vim, 笔记, ">
+
+
+<meta property="og:title" content="第二章 普通模式 笔记  &middot; 胡亚敏的博客 ">
+<meta property="og:site_name" content="胡亚敏的博客"/>
+<meta property="og:url" content="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/" />
+<meta property="og:locale" content="en-EN">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2018-07-31T00:00:00Z" />
+<meta property="og:article:modified_time" content="2018-07-31T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="vim">
+    
+<meta property="og:article:tag" content="笔记">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="第二章 普通模式 笔记" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/" />
+<meta name="twitter:domain" content="https://nothingtonothing.github.io/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "第二章 普通模式 笔记",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2018-07-31",
+    "description": "",
+    "wordCount": 79
+  }
+</script>
+
+
+
+<link rel="canonical" href="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://nothingtonothing.github.io/touch-icon-144-precomposed.png">
+<link href="https://nothingtonothing.github.io/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.44" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight/default.css">
+
+  
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="https://nothingtonothing.github.io/">
+  Yamin
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  胡亚敏的博客
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="https://nothingtonothing.github.io/">Home</a>
+
+
+  
+<a href="https://nothingtonothing.github.io/topics">主题</a>
+
+<a href="https://nothingtonothing.github.io/tags">tags</a>
+
+<a href="https://nothingtonothing.github.io/about">关于我</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+<a id="contact-link-email" class="contact_link" href="mailto:huym@mail.ustc.edu.cn">
+  <span class="fa fa-envelope-square"></span><span>email</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>第二章 普通模式 笔记
+</h1>
+
+  <div class="metas">
+<time datetime="2018-07-31">31 Jul, 2018</time>
+
+
+  
+    &middot; by Yamin Hu
+  
+  &middot; Read in about 1 min
+  &middot; (79 Words)
+  <br>
+  
+<a class="label" href="https://nothingtonothing.github.io/tags/vim">vim</a>
+
+<a class="label" href="https://nothingtonothing.github.io/tags/%E7%AC%94%E8%AE%B0">笔记</a>
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  
+
+<h2 id="技巧-7-停顿时请移开画笔">技巧 7: 停顿时请移开画笔</h2>
+
+<p>普通模式才是常态</p>
+
+<h2 id="技巧-8-把撤销单元切成块">技巧 8：把撤销单元切成块</h2>
+
+<ul>
+<li><p>自由控制撤销的粒度</p></li>
+
+<li><p>插入模式到退出插入模式，是一次修改，可进行一次撤销u</p></li>
+
+<li><p>在插入模式中，如果使用了方向键的话，会进一步细分撤销粒度</p></li>
+</ul>
+
+<h2 id="技巧-9-构造可重复的修改">技巧 9：构造可重复的修改</h2>
+
+<p>功能：光标位于单词最后一个字母，欲删除整个单词
+方案：dbx，或bdw，或daw（不仅删除单词，还删除了单词前的空格）</p>
+
+<p>最优方案：daw；原因，可以发挥.的最大威力。</p>
+
+<p>note
+- db: 删除 光标位置到单词起始处的单词
+- b: 移动 光标到单词的起始处
+- aw: 文本对象a</p>
+
+<h2 id="技巧-10-用次数做简单的算术运算">技巧 10：用次数做简单的算术运算</h2>
+
+<p>note
+- [count]<C-a>: 光标位置 或 其后 数字+count；不带count，为+1
+- yyp: 复制本行</p>
+
+<h2 id="技巧-11-能够重复-就别用次数">技巧 11：能够重复，就别用次数</h2>
+
+<p>功能：删除两个单词
+方案：d2w，2dw，dw.</p>
+
+<p>最优方案：dw.，拥有更细的粒度，即所谓的，执行，重复，回退</p>
+
+<h2 id="技巧-12-双剑合璧-天下无敌">技巧 12：双剑合璧，天下无敌</h2>
+
+<p>操作符 + 动作命令 = 操作</p>
+
+<p>note
+- d{motion} : dl，字符；dw，单词；dap，段落
+- 操作符重复，作用于当前行
+- daw：删除单词
+- gg: 跳到文档开头
+- G: 跳到文档结
+- 操作符待决模式：dw，d键入后，进入待决模式</p>
+
+<pre><code>|命令|用途|
+|----|----|
+|c|修改|
+|d|删除|
+|y|复制|
+|g~|反转大小写|
+|gu|变小写|
+|gU|变大写|
+|&gt;|增加缩进|
+|&lt;|减小缩进|
+|=|自动缩进|
+|!|使用外部程序过滤{motion}所跨越的行|
+</code></pre>
+
+</div>
+
+
+  <footer class="container">
+ 
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+
+</div>
+
+</footer>
+
+    </main>
+    
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    
+  </body>
+</html>
+

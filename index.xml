@@ -23,11 +23,11 @@
     </item>
     
     <item>
-      <title>第二章 Vim 解决问题的方式 笔记</title>
-      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%B8%80%E7%AB%A0-copy/</link>
+      <title>第二章 普通模式 笔记</title>
+      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
-      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%B8%80%E7%AB%A0-copy/</guid>
+      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/</guid>
       <description>技巧 7: 停顿时请移开画笔 普通模式才是常态
 技巧 8：把撤销单元切成块  自由控制撤销的粒度
  插入模式到退出插入模式，是一次修改，可进行一次撤销u
