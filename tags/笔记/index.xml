@@ -8,38 +8,35 @@
     <language>en-EN</language>
     <managingEditor>huym@mail.ustc.edu.cn (Yamin Hu)</managingEditor>
     <webMaster>huym@mail.ustc.edu.cn (Yamin Hu)</webMaster>
-    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Jul 2018 11:30:00 +1000</lastBuildDate>
     
 	<atom:link href="https://nothingtonothing.github.io/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>第一章 Vim 解决问题的方式 笔记</title>
-      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
-      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <title>第二章 普通模式 笔记</title>
+      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+      <pubDate>Tue, 31 Jul 2018 11:30:00 +1000</pubDate>
       <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
-      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
-      <description>技巧 1: . 命令  .: 重复上次的修改 修改：每次进入插入模式，会形成一次修改(包括进入插入模式的方式：i, a) x: 删除光标下字符 dd: 删除整行 &amp;gt;G: 缩进 当前行到文档结尾的 所有行  技巧 2： 不要自我重复  行尾加分号：$a;，下一行同样操作，j$. 改进为：A;，下一行同样操作，j.。范式：一键移动，一键操作  复合命令    复合命令 等效的长命令 功能     C c\$ 删除当前字符到行尾的所有字符，并进入插入模式   s cl 删除当前字符，并进入插入模式   S \^C (错误) 删除当前行，并进入插入模式   I \^i 光标回到第一个非空白符，并进入插入模式   A \$a 光标前进到行尾，并进入插入模式   o A 下一行插入内容   O ko 上一行插入内容    技巧 3： 以退为进  +两边加空格：f+，s空格+空格，;.</description>
+      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+      <description>技巧 7: 停顿时请移开画笔 普通模式才是常态
+技巧 8：把撤销单元切成块  自由控制撤销的粒度 插入模式到退出插入模式，是一次修改，可进行一次撤销u 在插入模式中，如果使用了方向键的话，会进一步细分撤销粒度  技巧 9：构造可重复的修改 功能：光标位于单词最后一个字母，欲删除整个单词
+方案：dbx，或bdw，或daw（不仅删除单词，还删除了单词前的空格）
+最优方案：daw；原因，可以发挥.的最大威力。
+ db: 删除 光标位置到单词起始处的单词 b: 移动 光标到单词的起始处 aw: 文本对象a  技巧 10：用次数做简单的算术运算  [count]: 光标位置 或 其后 数字+count；不带count，为+1 yyp: 复制本行  技巧 11：能够重复，就别用次数 功能：删除两个单词
+方案：d2w，2dw，dw.
+最优方案：dw.，拥有更细的粒度，即所谓的，执行，重复，回退
+技巧 12：双剑合璧，天下无敌 操作符 + 动作命令 = 操作
+ d{motion} : dl，字符；dw，单词；dap，段落 操作符重复，作用于当前行 daw：删除单词 gg: 跳到文档开头 G: 跳到文档结 操作符待决模式：dw，d键入后，进入待决模式  常见操作符    命令 用途     c 修改   d 删除   y 复制   g~ 反转大小写   gu 变小写   gU 变大写   &amp;gt; 增加缩进   &amp;lt; 减小缩进   = 自动缩进   !</description>
     </item>
     
     <item>
-      <title>第二章 普通模式 笔记</title>
-      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/</link>
-      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <title>第一章 Vim 解决问题的方式 笔记</title>
+      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
+      <pubDate>Tue, 31 Jul 2018 10:30:00 +1000</pubDate>
       <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
-      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7_%E7%AC%AC%E4%BA%8C%E7%AB%A0-/</guid>
-      <description>技巧 7: 停顿时请移开画笔 普通模式才是常态
-技巧 8：把撤销单元切成块  自由控制撤销的粒度
- 插入模式到退出插入模式，是一次修改，可进行一次撤销u
- 在插入模式中，如果使用了方向键的话，会进一步细分撤销粒度
-  技巧 9：构造可重复的修改 功能：光标位于单词最后一个字母，欲删除整个单词 方案：dbx，或bdw，或daw（不仅删除单词，还删除了单词前的空格）
-最优方案：daw；原因，可以发挥.的最大威力。
-note - db: 删除 光标位置到单词起始处的单词 - b: 移动 光标到单词的起始处 - aw: 文本对象a
-技巧 10：用次数做简单的算术运算 note - [count]: 光标位置 或 其后 数字+count；不带count，为+1 - yyp: 复制本行
-技巧 11：能够重复，就别用次数 功能：删除两个单词 方案：d2w，2dw，dw.
-最优方案：dw.，拥有更细的粒度，即所谓的，执行，重复，回退
-技巧 12：双剑合璧，天下无敌 操作符 + 动作命令 = 操作
-note - d{motion} : dl，字符；dw，单词；dap，段落 - 操作符重复，作用于当前行 - daw：删除单词 - gg: 跳到文档开头 - G: 跳到文档结 - 操作符待决模式：dw，d键入后，进入待决模式</description>
+      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
+      <description>技巧 1: . 命令  .: 重复上次的修改 修改：每次进入插入模式，会形成一次修改(包括进入插入模式的方式：i, a) x: 删除光标下字符 dd: 删除整行 &amp;gt;G: 缩进 当前行到文档结尾的 所有行  技巧 2： 不要自我重复  行尾加分号：$a;，下一行同样操作，j$. 改进为：A;，下一行同样操作，j.。范式：一键移动，一键操作  复合命令    复合命令 等效的长命令 功能     C c\$ 删除当前字符到行尾的所有字符，并进入插入模式   s cl 删除当前字符，并进入插入模式   S \^C (错误) 删除当前行，并进入插入模式   I \^i 光标回到第一个非空白符，并进入插入模式   A \$a 光标前进到行尾，并进入插入模式   o A 下一行插入内容   O ko 上一行插入内容    技巧 3： 以退为进  +两边加空格：f+，s空格+空格，;.</description>
     </item>
     
   </channel>

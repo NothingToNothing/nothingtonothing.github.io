@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>尝试Hugo  &middot; 胡亚敏的博客</title>
+  <title>第二章 普通模式 笔记  &middot; 胡亚敏的博客</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -14,25 +14,25 @@
 
 <meta name="description" content="" />
 
-<meta name="keywords" content="hubo, blog, ">
+<meta name="keywords" content="vim, 笔记, ">
 
 
-<meta property="og:title" content="尝试Hugo  &middot; 胡亚敏的博客 ">
+<meta property="og:title" content="第二章 普通模式 笔记  &middot; 胡亚敏的博客 ">
 <meta property="og:site_name" content="胡亚敏的博客"/>
-<meta property="og:url" content="https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/" />
+<meta property="og:url" content="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%BA%8C%E7%AB%A0/" />
 <meta property="og:locale" content="en-EN">
 
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2018-07-22T00:00:00Z" />
-<meta property="og:article:modified_time" content="2018-07-22T00:00:00Z" />
+<meta property="og:article:published_time" content="2018-07-31T11:30:00&#43;10:00" />
+<meta property="og:article:modified_time" content="2018-07-31T11:30:00&#43;10:00" />
 
   
     
-<meta property="og:article:tag" content="hubo">
+<meta property="og:article:tag" content="vim">
     
-<meta property="og:article:tag" content="blog">
+<meta property="og:article:tag" content="笔记">
     
   
 
@@ -40,9 +40,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@" />
-<meta name="twitter:title" content="尝试Hugo" />
+<meta name="twitter:title" content="第二章 普通模式 笔记" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/" />
+<meta name="twitter:url" content="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%BA%8C%E7%AB%A0/" />
 <meta name="twitter:domain" content="https://nothingtonothing.github.io/">
   
 
@@ -50,20 +50,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "尝试Hugo",
+    "headline": "第二章 普通模式 笔记",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
-    "datePublished": "2018-07-22",
+    "datePublished": "2018-07-31",
     "description": "",
-    "wordCount": 48
+    "wordCount": 76
   }
 </script>
 
 
 
-<link rel="canonical" href="https://nothingtonothing.github.io/post/%E5%AE%89%E8%A3%85hugo/" />
+<link rel="canonical" href="https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%BA%8C%E7%AB%A0/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://nothingtonothing.github.io/touch-icon-144-precomposed.png">
 <link href="https://nothingtonothing.github.io/favicon.png" rel="icon">
@@ -161,23 +161,23 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>尝试Hugo
+  <h1>第二章 普通模式 笔记
 </h1>
 
   <div class="metas">
-<time datetime="2018-07-22">22 Jul, 2018</time>
+<time datetime="2018-07-31">31 Jul, 2018</time>
 
 
   
     &middot; by Yamin Hu
   
   &middot; Read in about 1 min
-  &middot; (48 Words)
+  &middot; (76 Words)
   <br>
   
-<a class="label" href="https://nothingtonothing.github.io/tags/hubo">hubo</a>
+<a class="label" href="https://nothingtonothing.github.io/tags/vim">vim</a>
 
-<a class="label" href="https://nothingtonothing.github.io/tags/blog">blog</a>
+<a class="label" href="https://nothingtonothing.github.io/tags/%E7%AC%94%E8%AE%B0">笔记</a>
 
 
 
@@ -188,52 +188,122 @@
   <div class="container content">
   
 
-<h2 id="安装brew">安装brew</h2>
+<h2 id="技巧-7-停顿时请移开画笔">技巧 7: 停顿时请移开画笔</h2>
 
-<pre><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre>
+<p>普通模式才是常态</p>
 
-<h2 id="安装hugo">安装Hugo</h2>
+<h2 id="技巧-8-把撤销单元切成块">技巧 8：把撤销单元切成块</h2>
 
-<pre><code>brew install hugo
-</code></pre>
+<ul>
+<li>自由控制撤销的粒度</li>
+<li>插入模式到退出插入模式，是一次修改，可进行一次撤销u</li>
+<li>在插入模式中，如果使用了方向键的话，会进一步细分撤销粒度</li>
+</ul>
 
-<h2 id="创建站点">创建站点</h2>
+<h2 id="技巧-9-构造可重复的修改">技巧 9：构造可重复的修改</h2>
 
-<pre><code>hugo new site MyBlog
-</code></pre>
+<p>功能：光标位于单词最后一个字母，欲删除整个单词</p>
 
-<h2 id="增加theme">增加theme</h2>
+<p>方案：dbx，或bdw，或daw（不仅删除单词，还删除了单词前的空格）</p>
 
-<p>fork theme:hyde-y (从<a href="https://github.com/enten/hyde-y.git">github</a>到<a href="https://gitee.com/yaminhu/hyde-y.git">码云</a>）</p>
+<p>最优方案：daw；原因，可以发挥.的最大威力。</p>
 
-<p>给站点增加theme</p>
+<ul>
+<li>db: 删除 光标位置到单词起始处的单词</li>
+<li>b: 移动 光标到单词的起始处</li>
+<li>aw: 文本对象a</li>
+</ul>
 
-<pre><code>cd MyBLog
-git init
-git submodule add https://gitee.com/yaminhu/hyde-y.git themes/hyde-y
+<h2 id="技巧-10-用次数做简单的算术运算">技巧 10：用次数做简单的算术运算</h2>
 
-</code></pre>
+<ul>
+<li>[count]<C-a>: 光标位置 或 其后 数字+count；不带count，为+1</li>
+<li>yyp: 复制本行</li>
+</ul>
 
-<h2 id="增加内容">增加内容</h2>
+<h2 id="技巧-11-能够重复-就别用次数">技巧 11：能够重复，就别用次数</h2>
 
-<p>根据hyde-y的一个<a href="http://enten.github.io/hugo-boilerplate/">live site</a>的<a href="https://github.com/enten/hugo-boilerplate">source code</a>，修改content和data目录下的文件和config.toml。</p>
+<p>功能：删除两个单词</p>
 
-<h2 id="生成静态网页">生成静态网页</h2>
+<p>方案：d2w，2dw，dw.</p>
 
-<pre><code>hugo --baseUrl=&quot;https://nothingtonothing.github.io/&quot; -d githubpublic
+<p>最优方案：dw.，拥有更细的粒度，即所谓的，执行，重复，回退</p>
 
-hugo --baseUrl=&quot;https://yaminhu.gitee.io/&quot; -d giteepublic
-</code></pre>
+<h2 id="技巧-12-双剑合璧-天下无敌">技巧 12：双剑合璧，天下无敌</h2>
 
-<h2 id="上传静态网页到github或码云">上传静态网页到GitHub或码云</h2>
+<p>操作符 + 动作命令 = 操作</p>
 
-<p>达到目的：不依赖GitHub或码云的解析功能</p>
+<ul>
+<li>d{motion} : dl，字符；dw，单词；dap，段落</li>
+<li>操作符重复，作用于当前行</li>
+<li>daw：删除单词</li>
+<li>gg: 跳到文档开头</li>
+<li>G: 跳到文档结</li>
+<li>操作符待决模式：dw，d键入后，进入待决模式</li>
+</ul>
 
-<h2 id="测试命令">测试命令</h2>
+<h3 id="常见操作符">常见操作符</h3>
 
-<pre><code>hugo server -D
-</code></pre>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>用途</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>c</td>
+<td>修改</td>
+</tr>
+
+<tr>
+<td>d</td>
+<td>删除</td>
+</tr>
+
+<tr>
+<td>y</td>
+<td>复制</td>
+</tr>
+
+<tr>
+<td>g~</td>
+<td>反转大小写</td>
+</tr>
+
+<tr>
+<td>gu</td>
+<td>变小写</td>
+</tr>
+
+<tr>
+<td>gU</td>
+<td>变大写</td>
+</tr>
+
+<tr>
+<td>&gt;</td>
+<td>增加缩进</td>
+</tr>
+
+<tr>
+<td>&lt;</td>
+<td>减小缩进</td>
+</tr>
+
+<tr>
+<td>=</td>
+<td>自动缩进</td>
+</tr>
+
+<tr>
+<td>!</td>
+<td>使用外部程序过滤{motion}所跨越的行</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
