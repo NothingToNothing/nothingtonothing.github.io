@@ -8,10 +8,29 @@
     <language>en-EN</language>
     <managingEditor>huym@mail.ustc.edu.cn (Yamin Hu)</managingEditor>
     <webMaster>huym@mail.ustc.edu.cn (Yamin Hu)</webMaster>
-    <lastBuildDate>Tue, 31 Jul 2018 11:30:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Aug 2018 11:30:00 +1000</lastBuildDate>
     
 	<atom:link href="https://nothingtonothing.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第三章 插入模式 笔记</title>
+      <link>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%B8%89%E7%AB%A0/</link>
+      <pubDate>Wed, 01 Aug 2018 11:30:00 +1000</pubDate>
+      <author>huym@mail.ustc.edu.cn (Yamin Hu)</author>
+      <guid>https://nothingtonothing.github.io/post/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-%E7%AC%AC%E4%B8%89%E7%AB%A0/</guid>
+      <description>技巧 13：在插入模式中可即时更正错误 一个单词开头出错，删除整个单词，重新键入。
+删除命令    命令 用途     &amp;lt;C-h&amp;gt; 删除前一个字符(同退格键)   &amp;lt;C-w&amp;gt; 删除前一个单词   &amp;lt;C-u&amp;gt; 删至行首    Note: 在命令行模式，和bash shell中，也可以使用，大赞。
+技巧 14：返回普通模式 切换到普通模式：&amp;lt;C-[&amp;gt;
+切换到插入-普通模式：&amp;lt;C-o&amp;gt;
+插入-普通模式：执行完一条普通模式命令，立马回到插入模式
+ zz：当前行放在屏幕正中  技巧 15： 不离开插入模式，粘贴寄存器中的文本  set guifont=Menlo:h15：设置字体
+ set noimdisable：返回普通模式时，切换回英文输入法A
+ yt,:复制当前光标到,号前的所有字符
+ &amp;lt;C-r&amp;gt;{register}：粘贴
+  技巧 16：随时随地做运算 表达式寄存器
+ &amp;lt;C-r&amp;gt;=，输入表达式，  技巧 17： 用字符编码插入非常用字符  &amp;lt;C-v&amp;gt;065：输入A，A的ascii编码的十进制是65 &amp;lt;C-v&amp;gt;u00bf：输入¿，¿的unicode编码的十六进制是00bf ga：光标所在位置字符的编码 &amp;lt;C-v&amp;gt;非数字键：按原义插入非数字字符  技巧 18：二合字母插入非常用字符  C-k?</description>
+    </item>
     
     <item>
       <title>第二章 普通模式 笔记</title>
